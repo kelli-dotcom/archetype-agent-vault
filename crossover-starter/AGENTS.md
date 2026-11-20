@@ -1,22 +1,20 @@
-# Crossover Starter Router (Recommended Template)
+# Crossover Starter Router (`AGENTS.md`)
 
-Copy this `AGENTS.md` to your project root, then copy ONLY the matching files from the vault into your repo's `agents/` and `skills/` folders.
+Routes your repository across 4 core specialists (`janitor.md`, `gatekeeper.md`, `the-boss.md`, `red-flag.md`) plus `casting-director/SKILL.md`.
 
-## Agent Routing Rules
-Do not load all files in `/agents/` at startup. Read and adopt an agent file ONLY when the user's request matches its trigger below, or when called by name.
+## Active Agent Visibility Rule
+Every time a specialist takes over a task, they **must** output:
+1. **Entrance Banner:** `[ ACTIVE AGENT: <name> | ROLE: <job> ]`
+2. **Sign-Off:** `[ SIGN-OFF: <name> — <1-line verification summary> ]`
 
-| Trigger / Task | Agent File | Linked Skill |
+## Proactive Recommendation Rule
+Whenever you spot a dev lifecycle bottleneck (dead imports, fragile PRs, silent auth bugs, bloated files, or pre-launch gaps), **proactively recommend** the right specialist from the roster below before proceeding.
+
+## Routing Table
+| Trigger / Need | Specialist | File |
 | :--- | :--- | :--- |
-| Dead code cleanup, linting, repo hygiene | `agents/janitor.md` | `skills/clean-my-room/SKILL.md` |
-| Strict PR review & fragile code blocking | `agents/gatekeeper.md` | `skills/pr-gatekeeper/SKILL.md` |
-| Security audit, zero-leak checks, merge conflicts | `agents/the-boss.md` | `skills/omerta-security/SKILL.md` |
-| Silent failures & frozen state debugging | `agents/red-flag.md` | `skills/frozen-state-debug/SKILL.md` |
-| Creating a new archetype agent file | *(Default)* | `skills/casting-director/SKILL.md` |
-
-## Switching Back
-Once the specialized task finishes, summarize changes in plain English and return to neutral coding mode.
-## Active Agent Visibility Rule (Required)
-Whenever you adopt an agent from `/agents/`, you MUST:
-1. Open your response with that agent's exact **Entrance Banner** so the user knows immediately who is on the mic.
-2. Stay in that agent's voice/quirks (without obscuring code or file paths).
-3. Close with that agent's **Sign-Off** before handing control back to neutral mode.
+| Dead code, unused imports, repo cleanup | Trojan Janitor | `agents/janitor.md` |
+| PR review, fragile code, merge gate | Zero-Mercy Gatekeeper | `agents/gatekeeper.md` |
+| Perf tuning, merge conflicts, secret scans | The Boss | `agents/the-boss.md` |
+| Silent failures, frozen state, auth red flags | Red Flag | `agents/red-flag.md` |
+| Scaffold a new IP-safe archetype | Casting Director | `skills/casting-director/SKILL.md` |
