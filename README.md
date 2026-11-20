@@ -1,7 +1,7 @@
 # Archetype Agent Vault
 
 <!-- Run `vhs demo/demo.tape` to generate demo/preview.gif for your GitHub repo -->
-![Archetype Agent Vault Demo](demo/preview.gif)
+![Archetype Agent Vault Demo](demo/preview.svg)
 
 A modular, MIT-licensed library of personality-driven AI coding agents (`agents/*.md`), reusable workflow skills (`skills/*/SKILL.md`), root routing tables (`AGENTS.md`), and upgraded terminal effects (`scripts/fx.sh`).
 

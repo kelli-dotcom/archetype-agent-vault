@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-label="Archetype Agent Vault terminal demo">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#11111b"/>
+      <stop offset="100%" stop-color="#1e1e2e"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#89dceb"/>
+      <stop offset="50%" stop-color="#a6e3a1"/>
+      <stop offset="100%" stop-color="#f9e2af"/>
+    </linearGradient>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+
+      .s1 { opacity: 0; animation: show1 12s infinite; }
+      .s2 { opacity: 0; animation: show2 12s infinite; }
+      .s3 { opacity: 0; animation: show3 12s infinite; }
+      .s4 { opacity: 0; animation: show4 12s infinite; }
+      .s5 { opacity: 0; animation: show5 12s infinite; }
+      .s6 { opacity: 0; animation: show6 12s infinite; }
+      .barFill { transform-box: fill-box; transform-origin: left center; animation: sweep 12s infinite; }
+      .cursor { animation: blink 1s step-end infinite; }
+
+      @keyframes show1 { 0%, 4% { opacity: 0; } 7%, 95% { opacity: 1; } 100% { opacity: 0; } }
+      @keyframes show2 { 0%, 14% { opacity: 0; } 18%, 95% { opacity: 1; } 100% { opacity: 0; } }
+      @keyframes show3 { 0%, 34% { opacity: 0; } 38%, 95% { opacity: 1; } 100% { opacity: 0; } }
+      @keyframes show4 { 0%, 46% { opacity: 0; } 50%, 95% { opacity: 1; } 100% { opacity: 0; } }
+      @keyframes show5 { 0%, 64% { opacity: 0; } 68%, 95% { opacity: 1; } 100% { opacity: 0; } }
+      @keyframes show6 { 0%, 76% { opacity: 0; } 80%, 95% { opacity: 1; } 100% { opacity: 0; } }
+      @keyframes sweep {
+        0%, 14% { transform: scaleX(0); opacity: 0; }
+        16% { transform: scaleX(0.08); opacity: 1; }
+        34%, 95% { transform: scaleX(1); opacity: 1; }
+        100% { transform: scaleX(0); opacity: 0; }
+      }
+      @keyframes blink { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
+    </style>
+  </defs>
+
+  <!-- Terminal Window Frame -->
+  <rect x="0" y="0" width="960" height="540" rx="18" fill="url(#bgGrad)"/>
+  <rect x="1" y="1" width="958" height="538" rx="17" fill="none" stroke="#313244" stroke-width="2"/>
+
+  <!-- Top Bar -->
+  <path d="M18 1 H942 A17 17 0 0 1 959 18 V46 H1 V18 A17 17 0 0 1 18 1 Z" fill="#181825"/>
+  <circle cx="28" cy="24" r="6.5" fill="#f38ba8"/>
+  <circle cx="50" cy="24" r="6.5" fill="#f9e2af"/>
+  <circle cx="72" cy="24" r="6.5" fill="#a6e3a1"/>
+  <text x="480" y="29" text-anchor="middle" fill="#cdd6f4" font-size="13" font-weight="600" class="sans">archetype-agent-vault — ./scripts/fx.sh (7 Agent Suites · 70 Files)</text>
+
+  <!-- Step 1: Trojan Janitor Vacuum -->
+  <g class="s1">
+    <text x="36" y="88" fill="#89b4fa" font-size="16" font-weight="700" class="mono">$</text>
+    <text x="56" y="88" fill="#cdd6f4" font-size="16" class="mono">./scripts/fx.sh vacuum</text>
+    <text x="320" y="88" fill="#6c7086" font-size="13" class="mono"># trojan-janitor/agents/janitor.md</text>
+  </g>
+
+  <g class="s2">
+    <text x="36" y="122" fill="#f9e2af" font-size="15" font-weight="700" class="mono">[ DO NOT DISTURB ] Sweeping dead code &amp; unused imports...</text>
+    <rect x="36" y="138" width="420" height="12" rx="6" fill="#313244"/>
+    <rect x="36" y="138" width="420" height="12" rx="6" fill="url(#barGrad)" class="barFill"/>
+  </g>
+
+  <g class="s3">
+    <rect x="36" y="164" width="380" height="36" rx="8" fill="#1e2f23" stroke="#a6e3a1" stroke-width="1.5"/>
+    <text x="54" y="187" fill="#a6e3a1" font-size="15" font-weight="700" class="mono">[ OK ] Room is spotless. 0 dead imports left.</text>
+  </g>
+
+  <!-- Step 2: Zero-Mercy Gatekeeper -->
+  <g class="s4">
+    <text x="36" y="242" fill="#89b4fa" font-size="16" font-weight="700" class="mono">$</text>
+    <text x="56" y="242" fill="#cdd6f4" font-size="16" class="mono">./scripts/fx.sh gate_locked</text>
+    <text x="360" y="242" fill="#6c7086" font-size="13" class="mono"># zero-mercy-gatekeeper/agents/gatekeeper.md</text>
+    <rect x="36" y="258" width="640" height="64" rx="10" fill="#2b1820" stroke="#f38ba8" stroke-width="2"/>
+    <text x="56" y="284" fill="#f38ba8" font-size="15" font-weight="800" class="mono">[ PR GATE LOCKED ] — Fix every flagged issue before merge.</text>
+    <text x="56" y="308" fill="#fab387" font-size="14" class="mono">Blocking sloppy commits, missing tests, and fragile code paths.</text>
+  </g>
+
+  <!-- Step 3: Waste Management Omerta Security -->
+  <g class="s5">
+    <text x="36" y="364" fill="#89b4fa" font-size="16" font-weight="700" class="mono">$</text>
+    <text x="56" y="364" fill="#cdd6f4" font-size="16" class="mono">./scripts/fx.sh omerta</text>
+    <text x="320" y="364" fill="#6c7086" font-size="13" class="mono"># waste-management/skills/omerta-security</text>
+  </g>
+
+  <g class="s6">
+    <rect x="36" y="380" width="640" height="64" rx="10" fill="#172824" stroke="#94e2d5" stroke-width="1.5"/>
+    <text x="56" y="406" fill="#cdd6f4" font-size="15" font-weight="700" class="mono">[ OMERTA SECURITY SCAN ]</text>
+    <text x="56" y="430" fill="#a6e3a1" font-size="14" font-weight="700" class="mono">Secrets status: ██████████ [ REDACTED &amp; SAFE — ZERO LEAKS ]</text>
+  </g>
+
+  <!-- Footer Prompt -->
+  <line x1="36" y1="478" x2="924" y2="478" stroke="#313244" stroke-width="1"/>
+  <text x="36" y="510" fill="#a6adc8" font-size="13" class="mono">7 Suites · Drop into any repo via AGENTS.md + agents/ + skills/</text>
+  <rect x="908" y="497" width="10" height="16" fill="#cba6f7" class="cursor"/>
+</svg>
