@@ -32,9 +32,22 @@ A modular, MIT-licensed library of **100% IP-safe**, personality-driven AI codin
 | **4. Testing & UI Polish** | `booby-trap-defender/` (`defender.md`) | Add edge-case tests and chaotic-user QA |
 | **5. Cleanup & Security** | `trojan-janitor/` + `redacted-veteran/` | Sweep unused imports, scrub debug logs, scan secrets |
 | **6. Final Merge & Deploy** | `zero-mercy-gatekeeper/` (`gatekeeper.md`) | Enforce PR quality gate before merging to `main` |
-| **7. Public Launch** | `github-trending-kit` (`launch-director.md`) | Audit README conversion, SEO topics, and launch copy |
+| **7. Docs & Release** | `trojan-janitor/` (`scoop-reporter.md`) + `redacted-veteran/` | Polish release docs, scrub debug logs, and prepare public release |
 
 ## Quick Start
+
+<details>
+<summary><strong>Download &amp; Use on Mobile (iOS / Android)</strong></summary>
+
+**[Download ZIP (Mobile-Friendly)](https://github.com/kelli-dotcom/archetype-agent-vault/archive/refs/heads/main.zip)**
+
+- **iPhone (iOS):** Tap **Download** → open **Files** → **Downloads** → tap the `.zip` once to unzip.
+- **Android:** Tap **Download** → open **My Files / Files** → **Downloads** → tap the `.zip` and select **Extract**.
+- **Browser Alternative:** Tap **Request Desktop Website** in Safari/Chrome to reveal the green **Code → Download ZIP** button.
+- **Use on Mobile:** Attach any `.md` agent or skill file directly in Gemini, Claude, or ChatGPT (or upload favorites once into a Gemini Gem / Claude Project), or sync via Working Copy / Codespaces / Replit.
+
+</details>
+
 
 ### Option 1: One-Command Installer (Recommended)
 ```bash
