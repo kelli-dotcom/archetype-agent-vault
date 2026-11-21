@@ -1,8 +1,8 @@
 # Archetype Agent Vault
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Suites](https://img.shields.io/badge/Full--Cast_Suites-7-0B5E57.svg)](#the-roster-7-suites)
-[![Specialists](https://img.shields.io/badge/Specialists-27-FF6A00.svg)](#the-roster-7-suites)
+[![Suites](https://img.shields.io/badge/Full--Cast_Suites-7-0B5E57.svg)](#the-roster-7-suites--27-specialists)
+[![Specialists](https://img.shields.io/badge/Specialists-27-FF6A00.svg)](#the-roster-7-suites--27-specialists)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![CRTA Crafted](https://img.shields.io/badge/CRTA-Crafted-6f42c1.svg)](https://github.com/topics/crta-crafted)
 
