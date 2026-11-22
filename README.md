@@ -97,3 +97,8 @@ Generic AI prompts produce generic reviews. **Archetype Agent Vault** pairs ruth
 | **[github-trending-kit](https://github.com/kelli-dotcom/github-trending-kit)** | AI agent & skill kit for top-GitHub READMEs, SEO topics & launch copy |
 
 ✨ *Crafted with main-character energy by **CRTA Tech Solutions*** • GitHub Topic: `crta-crafted`
+
+## 4 New Full-Cast Suites + 500-Archetype Expansion Catalog
+- **New IP-Safe Full-Cast Suites:** [`detroit-outsider/`](detroit-outsider/), [`chemistry-perfectionist/`](chemistry-perfectionist/), [`bayou-nightshift/`](bayou-nightshift/), [`golden-road-guide/`](golden-road-guide/) (13 specialists, 12 skills).
+- **500-Archetype Expansion Catalog:** Browse [`catalog/INDEX.md`](catalog/INDEX.md) (100 Cinema, 100 TV Drama, 100 Reality TV, 100 Game Shows, 100 Classic Novels) or machine-readable [`catalog/archetypes-500.json`](catalog/archetypes-500.json).
+- **1-Command Scaffolder:** `./scripts/scaffold-from-catalog.sh <slug> /path/to/your-project`
