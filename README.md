@@ -1,16 +1,41 @@
-# Archetype Agent Vault
+<h1 align="center">Archetype Agent Vault</h1>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Suites](https://img.shields.io/badge/Full--Cast_Suites-7-0B5E57.svg)](#the-roster-7-suites--27-specialists)
-[![Specialists](https://img.shields.io/badge/Specialists-27-FF6A00.svg)](#the-roster-7-suites--27-specialists)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![CRTA Crafted](https://img.shields.io/badge/CRTA-Crafted-6f42c1.svg)](https://github.com/topics/crta-crafted)
+<p align="center">
+  <strong>7 full-cast, 100% IP-safe, character-driven AI coding agent suites (27 specialists) with terminal FX and zero trigger collisions.</strong><br />
+  <em>Turn routine repo cleanup, PR gatekeeping, debugging, and edge-case QA into unforgettable specialist workflows.</em>
+</p>
 
-![Archetype Agent Vault Demo](demo/preview.svg)
+<p align="center">
+  <a href="#-the-roster-7-suites--27-specialists"><strong>The Roster</strong></a> ·
+  <a href="#-when-to-use-which-dev-lifecycle-guide"><strong>Lifecycle Guide</strong></a> ·
+  <a href="#-quick-start"><strong>Quick Start</strong></a> ·
+  <a href="CONTRIBUTING.md"><strong>Contribute</strong></a> ·
+  <a href="https://github.com/kelli-dotcom/archetype-agent-vault/issues"><strong>Request Archetype</strong></a>
+</p>
 
-A modular, MIT-licensed library of **100% IP-safe**, personality-driven AI coding agents (`agents/*.md`), reusable workflow skills (`skills/*/SKILL.md`), root routing tables (`AGENTS.md`), and upgraded terminal effects (`scripts/fx.sh`).
+<p align="center">
+  <img src="https://img.shields.io/badge/Full--Cast_Suites-7-0B5E57?style=for-the-badge" alt="7 Suites" />
+  <img src="https://img.shields.io/badge/Specialists-27-FF6A00?style=for-the-badge" alt="27 Specialists" />
+  <img src="https://img.shields.io/badge/IP--Safe-100%25_Original-10b981?style=for-the-badge" alt="100% IP-Safe" />
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License" />
+  <img src="https://img.shields.io/badge/CRTA-Crafted-6f42c1?style=for-the-badge" alt="CRTA Crafted" />
+</p>
 
-## The Roster (7 Suites · 27 Specialists)
+<p align="center">
+  <img src="demo/preview.svg" alt="Archetype Agent Vault Demo" width="90%" />
+</p>
+
+---
+
+## ✨ Built for Developers Who Want Strict Engineering *With* Personality
+
+Generic AI prompts produce generic reviews. **Archetype Agent Vault** pairs ruthless technical discipline (dead-code sweeping, security audits, strict PR gates, chaotic-user QA) with distinct, zero-collision agent personas — and drops cleanly into any repo in one command.
+
+- **Proven in Production:** `The Boss`, `Trojan Janitor`, and `Zero-Mercy Gatekeeper` power the live multi-agent pipeline in **[Openflex](https://github.com/kelli-dotcom/openflex)**.
+
+---
+
+## 🎭 The Roster (7 Suites · 27 Specialists)
 
 | Suite Folder | Lead Agent | Vibe & Core Job |
 | :--- | :--- | :--- |
@@ -22,7 +47,9 @@ A modular, MIT-licensed library of **100% IP-safe**, personality-driven AI codin
 | `booby-trap-defender/` | `defender.md` | Rigs the repo with edge-case tests and chaotic-user QA. |
 | `redacted-veteran/` | `agent-v.md` | Deadpan veteran for log scrubbing, surgical performance fixes, and contract checks. |
 
-## When to Use Which (Dev Lifecycle Guide)
+---
+
+## 🧭 When to Use Which (Dev Lifecycle Guide)
 
 | Stage | Recommended Suite / Specialist | Primary Goal |
 | :--- | :--- | :--- |
@@ -32,9 +59,19 @@ A modular, MIT-licensed library of **100% IP-safe**, personality-driven AI codin
 | **4. Testing & UI Polish** | `booby-trap-defender/` (`defender.md`) | Add edge-case tests and chaotic-user QA |
 | **5. Cleanup & Security** | `trojan-janitor/` + `redacted-veteran/` | Sweep unused imports, scrub debug logs, scan secrets |
 | **6. Final Merge & Deploy** | `zero-mercy-gatekeeper/` (`gatekeeper.md`) | Enforce PR quality gate before merging to `main` |
-| **7. Docs & Release** | `trojan-janitor/` (`scoop-reporter.md`) + `redacted-veteran/` | Polish release docs, scrub debug logs, and prepare public release |
+| **7. Docs & Release** | `trojan-janitor/` (`scoop-reporter.md`) + `redacted-veteran/` | Polish release docs and prepare public release |
 
-## Quick Start
+---
+
+## 🚀 Quick Start
+
+```bash
+# One-command install into any project:
+./scripts/install.sh crossover /path/to/your-project
+
+# Or install any specific suite:
+./scripts/install.sh trojan-janitor /path/to/your-project
+```
 
 <details>
 <summary><strong>Download &amp; Use on Mobile (iOS / Android)</strong></summary>
@@ -43,32 +80,20 @@ A modular, MIT-licensed library of **100% IP-safe**, personality-driven AI codin
 
 - **iPhone (iOS):** Tap **Download** → open **Files** → **Downloads** → tap the `.zip` once to unzip.
 - **Android:** Tap **Download** → open **My Files / Files** → **Downloads** → tap the `.zip` and select **Extract**.
-- **Browser Alternative:** Tap **Request Desktop Website** in Safari/Chrome to reveal the green **Code → Download ZIP** button.
-- **Use on Mobile:** Attach any `.md` agent or skill file directly in Gemini, Claude, or ChatGPT (or upload favorites once into a Gemini Gem / Claude Project), or sync via Working Copy / Codespaces / Replit.
+- **Use on Mobile:** Attach any `.md` agent or skill file directly in Gemini, Claude, or ChatGPT.
 
 </details>
 
-
-### Option 1: One-Command Installer (Recommended)
-```bash
-./scripts/install.sh crossover /path/to/your-project
-# Or install any specific suite:
-./scripts/install.sh trojan-janitor /path/to/your-project
-```
-
-### Option 2: Manual Drop-In
-Copy any suite folder (e.g., `trojan-janitor/`) plus `scripts/fx.sh` into your project root (`AGENTS.md`, `agents/`, `skills/`, `scripts/fx.sh`).
-
-### Option 3: Custom Crossover
-Copy `crossover-starter/AGENTS.md` and pick only the **3–5 agents** and **5–10 skills** you need — keeping one skill per job so triggers never collide.
-
-## Terminal FX Demo
-```bash
-chmod +x scripts/fx.sh
-./scripts/fx.sh demo
-```
-*(Run `vhs demo/demo.tape` to record a custom `demo/preview.gif`.)*
-
 ---
 
-✨ *Crafted with main-character energy by **CRTA*** • GitHub Topic: `crta-crafted`
+## 🌐 CRTA Tech Solutions Open-Source Ecosystem
+
+| Repository | What It Does |
+| :--- | :--- |
+| **[openflex](https://github.com/kelli-dotcom/openflex)** | Zero-cost, anti-ghost, Remote-Truth job board (61 verified ATS feeds) |
+| **[feather-themes](https://github.com/kelli-dotcom/feather-themes)** | 1,092 photobiology-calibrated, 0-dep WCAG AA/AAA themes for web & apps |
+| **[agent-etiquette](https://github.com/kelli-dotcom/agent-etiquette)** | Multi-agent workflow rules, JSON handoff schemas & Rule of 2 loop caps |
+| **[archetype-agent-vault](https://github.com/kelli-dotcom/archetype-agent-vault)** | 7 character-driven AI coding agent suites (27 specialists) |
+| **[github-trending-kit](https://github.com/kelli-dotcom/github-trending-kit)** | AI agent & skill kit for top-GitHub READMEs, SEO topics & launch copy |
+
+✨ *Crafted with main-character energy by **CRTA Tech Solutions*** • GitHub Topic: `crta-crafted`
