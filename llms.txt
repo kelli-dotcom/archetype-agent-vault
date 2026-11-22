@@ -1,0 +1,21 @@
+# Archetype Agent Vault
+
+> Modular library of character-driven, production-tested AI agent personas & suites (`waste-management`, `trojan-janitor`, `zero-mercy-gatekeeper`, `booby-trap-defender`, `casting-director`, and more) built to work with any LLM.
+
+## Agent Entry Points (All Models)
+- `AGENTS.md` — Universal project guardrails, Rule of 2, and concurrency cap.
+- `HANDOFF.md` — Active session state, verification command, and next step.
+- `mistakes.md` — Permanent "Never Repeat" guardrail log.
+
+## Key Paths
+- `waste-management/` — Orchestrator ("The Boss") archetype.
+- `trojan-janitor/` — Ingestion, cleanup & dead-link purge archetype.
+- `zero-mercy-gatekeeper/` — Strict QA, typecheck & spec enforcement archetype.
+- `booby-trap-defender/` — Security & edge-case defense archetype.
+- `casting-director/` — Multi-agent team assembly archetype.
+- `laid-back-simplifier/` — Complexity reduction & lightweight refactor archetype.
+- `paranoia-pack/`, `redacted-veteran/`, `crossover-starter/` — Specialized audit & starter suites.
+- `scripts/` — Setup & installation helpers.
+
+## Verification Command
+`ls -la AGENTS.md HANDOFF.md mistakes.md llms.txt`
