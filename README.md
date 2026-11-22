@@ -63,18 +63,23 @@ Generic AI prompts produce generic reviews. **Archetype Agent Vault** pairs ruth
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Quick Start (PC / Laptop & Mobile)
+
+### 💻 1. PC / Laptop Quick Start (Mac, Windows, Linux & Chromebook)
 
 ```bash
-# One-command install into any project:
+# Clone the vault & run the 1-command installer into any project:
+git clone https://github.com/kelli-dotcom/archetype-agent-vault.git && cd archetype-agent-vault
 ./scripts/install.sh crossover /path/to/your-project
 
-# Or install any specific suite:
+# Or install any specific specialist suite:
 ./scripts/install.sh trojan-janitor /path/to/your-project
 ```
 
+### 📱 2. Mobile Quick Start (iPhone, iPad & Android)
+
 <details>
-<summary><strong>Download &amp; Use on Mobile (iOS / Android)</strong></summary>
+<summary><strong>📱 Download &amp; Use on Mobile (iOS / Android)</strong></summary>
 
 **[Download ZIP (Mobile-Friendly)](https://github.com/kelli-dotcom/archetype-agent-vault/archive/refs/heads/main.zip)**
 
