@@ -1,8 +1,9 @@
 # Archetype Agent Vault
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Suites](https://img.shields.io/badge/Full--Cast_Suites-7-0B5E57.svg)](#the-roster-7-suites--27-specialists)
-[![Specialists](https://img.shields.io/badge/Specialists-27-FF6A00.svg)](#the-roster-7-suites--27-specialists)
+[![Suites](https://img.shields.io/badge/Full--Cast_Suites-11-0B5E57.svg)](#the-roster-7-suites--27-specialists)
+[![Specialists](https://img.shields.io/badge/Specialists-40-FF6A00.svg)](#the-roster-7-suites--27-specialists)
+[![500+ Catalog](https://img.shields.io/badge/Catalog-500%2B_Archetypes-14A37F.svg)](catalog/INDEX.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![CRTA Crafted](https://img.shields.io/badge/CRTA-Crafted-6f42c1.svg)](https://github.com/topics/crta-crafted)
 
@@ -10,7 +11,7 @@
 
 A modular, MIT-licensed library of **100% IP-safe**, personality-driven AI coding agents (`agents/*.md`), reusable workflow skills (`skills/*/SKILL.md`), root routing tables (`AGENTS.md`), and upgraded terminal effects (`scripts/fx.sh`).
 
-## The Roster (7 Suites · 27 Specialists)
+## The Roster (11 Full-Cast Suites · 40 Specialists + 500-Archetype Catalog)
 
 | Suite Folder | Lead Agent | Vibe & Core Job |
 | :--- | :--- | :--- |
@@ -21,6 +22,20 @@ A modular, MIT-licensed library of **100% IP-safe**, personality-driven AI codin
 | `laid-back-simplifier/` | `simplifier.md` | Ruthless minimalist who cuts bloated files and runs fast pre-deploy sanity checks. |
 | `booby-trap-defender/` | `defender.md` | Rigs the repo with edge-case tests and chaotic-user QA. |
 | `redacted-veteran/` | `agent-v.md` | Deadpan veteran for log scrubbing, surgical performance fixes, and contract checks. |
+| `detroit-outsider/` | `outsider-detective.md` | Street-smart cross-stack investigator who cuts through red tape and spots disguised config bugs. |
+| `chemistry-perfectionist/` | `lead-chemist.md` | Obsessive 99.1% purity refactorer and build-pipeline chemist who eliminates flaky builds. |
+| `bayou-nightshift/` | `night-watcher.md` | Nocturnal incident responder and memory-leak hunter built for after-hours outages. |
+| `golden-road-guide/` | `road-navigator.md` | End-to-end onboarding and migration navigator leading teams down the golden path. |
+
+
+## 500-Archetype Expansion Catalog (`catalog/INDEX.md`)
+Browse **500 additional 100% IP-safe archetypes** across **Hit Cinema (100)**, **Prestige TV (100)**, **Reality TV (100)**, **Game Shows (100)**, and **Popular Novels (100)** in [`catalog/INDEX.md`](catalog/INDEX.md) (machine-readable: [`catalog/archetypes-500.json`](catalog/archetypes-500.json)).
+
+Scaffold any of the 500 archetypes into a ready-to-run suite (`AGENTS.md` + `agents/` + `skills/`) in 1 command:
+```bash
+./scripts/scaffold-from-catalog.sh --list
+./scripts/scaffold-from-catalog.sh cin-noir-investigator /path/to/your-project
+```
 
 ## When to Use Which (Dev Lifecycle Guide)
 
