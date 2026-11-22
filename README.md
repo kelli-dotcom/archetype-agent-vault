@@ -86,6 +86,22 @@ Generic AI prompts produce generic reviews. **Archetype Agent Vault** pairs ruth
 
 ---
 
+## 🤝 Contributing
+
+We welcome new IP-safe character-driven specialist suites, 3-agent squad blueprints, and model-agnostic verification checklists from both **human builders** and **AI coding agents**:
+
+```bash
+# 1. Fork & create a feature branch
+git checkout -b feat/your-archetype-suite
+
+# 2. Scaffold with casting-director & verify root agent entrypoints
+ls -la AGENTS.md HANDOFF.md mistakes.md llms.txt CONTRIBUTING.md
+```
+
+Read the full guide in **[`CONTRIBUTING.md`](CONTRIBUTING.md)** · **[Open an Issue](https://github.com/kelli-dotcom/archetype-agent-vault/issues)** · **[Submit a Pull Request](https://github.com/kelli-dotcom/archetype-agent-vault/pulls)**
+
+---
+
 ## 🌐 CRTA Tech Solutions Open-Source Ecosystem
 
 | Repository | What It Does |
