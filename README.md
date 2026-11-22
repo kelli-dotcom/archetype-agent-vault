@@ -31,7 +31,7 @@
 
 Generic AI prompts produce generic reviews. **Archetype Agent Vault** pairs ruthless technical discipline (dead-code sweeping, security audits, strict PR gates, chaotic-user QA) with distinct, zero-collision agent personas — and drops cleanly into any repo in one command.
 
-- **Proven in Production:** `The Boss`, `Trojan Janitor`, and `Zero-Mercy Gatekeeper` power the live multi-agent pipeline in **[Openflex](https://github.com/kelli-dotcom/openflex)**.
+- **Proven in Production:** `The Boss`, `Trojan Janitor`, and `Zero-Mercy Gatekeeper` power the live multi-agent pipeline in **Openflex** *(CRTA Proprietary Platform)*.
 
 ---
 
@@ -111,7 +111,7 @@ Read the full guide in **[`CONTRIBUTING.md`](CONTRIBUTING.md)** · **[Open an Is
 
 | Repository | What It Does |
 | :--- | :--- |
-| **[openflex](https://github.com/kelli-dotcom/openflex)** | Zero-cost, anti-ghost, Remote-Truth job board (61 verified ATS feeds) |
+| **Openflex** *(CRTA Proprietary Platform)* | Zero-cost, anti-ghost, Remote-Truth job board (61 verified ATS feeds) |
 | **[feather-themes](https://github.com/kelli-dotcom/feather-themes)** | 1,092 photobiology-calibrated, 0-dep WCAG AA/AAA themes for web & apps |
 | **[agent-etiquette](https://github.com/kelli-dotcom/agent-etiquette)** | Multi-agent workflow rules, JSON handoff schemas & Rule of 2 loop caps |
 | **[archetype-agent-vault](https://github.com/kelli-dotcom/archetype-agent-vault)** | 7 character-driven AI coding agent suites (27 specialists) |
