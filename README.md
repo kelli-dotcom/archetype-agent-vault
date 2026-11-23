@@ -14,11 +14,11 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Full--Cast_Suites-7-0B5E57?style=for-the-badge" alt="7 Suites" />
-  <img src="https://img.shields.io/badge/Specialists-27-FF6A00?style=for-the-badge" alt="27 Specialists" />
-  <img src="https://img.shields.io/badge/IP--Safe-100%25_Original-10b981?style=for-the-badge" alt="100% IP-Safe" />
-  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License" />
-  <img src="https://img.shields.io/badge/CRTA-Crafted-6f42c1?style=for-the-badge" alt="CRTA Crafted" />
+  <a href="#-quick-start-pc--laptop--mobile"><img src="https://img.shields.io/badge/Full--Cast_Suites-7-0B5E57?style=for-the-badge" alt="7 Suites" /></a>
+  <a href="#-quick-start-pc--laptop--mobile"><img src="https://img.shields.io/badge/Specialists-27-FF6A00?style=for-the-badge" alt="27 Specialists" /></a>
+  <a href="#-quick-start-pc--laptop--mobile"><img src="https://img.shields.io/badge/IP--Safe-100%25_Original-10b981?style=for-the-badge" alt="100% IP-Safe" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License" /></a>
+  <a href="https://github.com/kelli-dotcom"><img src="https://img.shields.io/badge/CRTA-Crafted-6f42c1?style=for-the-badge" alt="CRTA Crafted" /></a>
 </p>
 
 <p align="center">
