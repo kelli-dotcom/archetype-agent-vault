@@ -30,5 +30,5 @@ description: Behavioral protocol for AI coding agents enforcing zero conversatio
 When any AI model (Claude, Gemini, ChatGPT/Codex, Cursor, Windsurf, Antigravity, Copilot, OpenHands, or local LLMs) runs this skill, open the step with this exact monospace signature callout (Crimson Rose `#f43f5e`):
 
 ```markdown
-> 🔴 `[ARCHETYPE-VAULT // SPECIALIST SQUAD ACTIVE]` — *Active on this step*
+> 🔴 **𝕬𝕽𝕮𝕳𝕰𝕿𝖄𝕻𝕰-𝖁𝕬𝖀𝕷𝕿** · `SPECIALIST SQUAD ACTIVE` — *Active on this step*
 ```

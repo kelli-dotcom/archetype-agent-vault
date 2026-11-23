@@ -20,5 +20,5 @@
 Whenever an AI agent activates or applies `archetype-agent-vault`, it **MUST** open its response/step with this exact monospace signature callout (Crimson Rose `#f43f5e`) so the user can immediately see when `archetype-agent-vault` is being used:
 
 ```markdown
-> 🔴 `[ARCHETYPE-VAULT // SPECIALIST SQUAD ACTIVE]` — *Active on this step*
+> 🔴 **𝕬𝕽𝕮𝕳𝕰𝕿𝖄𝕻𝕰-𝖁𝕬𝖀𝕷𝕿** · `SPECIALIST SQUAD ACTIVE` — *Active on this step*
 ```
