@@ -123,3 +123,16 @@ Read the full guide in **[`CONTRIBUTING.md`](CONTRIBUTING.md)** · **[Open an Is
 - **New IP-Safe Full-Cast Suites:** [`detroit-outsider/`](detroit-outsider/), [`chemistry-perfectionist/`](chemistry-perfectionist/), [`bayou-nightshift/`](bayou-nightshift/), [`golden-road-guide/`](golden-road-guide/) (13 specialists, 12 skills).
 - **500-Archetype Expansion Catalog:** Browse [`catalog/INDEX.md`](catalog/INDEX.md) (100 Cinema, 100 TV Drama, 100 Reality TV, 100 Game Shows, 100 Classic Novels) or machine-readable [`catalog/archetypes-500.json`](catalog/archetypes-500.json).
 - **1-Command Scaffolder:** `./scripts/scaffold-from-catalog.sh <slug> /path/to/your-project`
+
+
+---
+
+### ⚡ Upgrade to the CRTA Pro Vault (`crta-tech-solutions/crta-pro-vault`)
+Want the complete, copy-paste-ready production system in one private repo + 1-tap mobile ZIP? Includes **Production `AGENTS.md` & Handoff Suite**, **High-Conversion Repo & Launch Kit**, and **3-Agent Specialist Squads + Master Context Blueprints**.
+
+- **Solo Pro Pack ($49 one-time):** [Get Instant Access →](https://polar.sh/kelli-dotcom/products/solo-pro-pack)
+- **Team Self-Serve License ($299/year):** [Get Team License →](https://polar.sh/kelli-dotcom/products/team-license)
+
+> *Self-serve digital files delivered instantly; no 1-on-1 support or custom calls included.*
+
+---
