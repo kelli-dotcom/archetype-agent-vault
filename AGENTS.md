@@ -15,3 +15,10 @@
 - **Behavioral Rules:** Load `skills/agent-etiquette/SKILL.md` (zero filler, verified actions only, Rule of 2 retry cap, max 3 concurrent specialists).
 - **Handoff Contract:** Validate inter-agent handoffs against `schemas/handoff.json` (`node scripts/validate-handoff.mjs <file>`).
 <!-- AGENT-ETIQUETTE:END -->
+
+## 🎨 Agent Active Signature (Visual Identification)
+Whenever an AI agent activates or applies `archetype-agent-vault`, it **MUST** open its response/step with this exact monospace signature callout (Crimson Rose `#f43f5e`) so the user can immediately see when `archetype-agent-vault` is being used:
+
+```markdown
+> 🔴 `[ARCHETYPE-VAULT // SPECIALIST SQUAD ACTIVE]` — *Active on this step*
+```

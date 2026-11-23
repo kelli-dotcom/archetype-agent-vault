@@ -19,3 +19,6 @@
 
 ## Verification Command
 `ls -la AGENTS.md HANDOFF.md mistakes.md llms.txt`
+
+## Active Signature (Output When Used)
+> 🔴 `[ARCHETYPE-VAULT // SPECIALIST SQUAD ACTIVE]` — *Active on this step* (Crimson Rose `#f43f5e`)
