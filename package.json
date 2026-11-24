@@ -1,0 +1,33 @@
+{
+  "name": "archetype-agent-vault",
+  "version": "1.0.0",
+  "description": "7 full-cast, character-driven AI coding agent suites (27 specialists) with terminal FX, one-command install, and zero trigger collisions.",
+  "type": "module",
+  "main": "scripts/validate-handoff.mjs",
+  "author": "CRTA Tech Solutions",
+  "license": "MIT",
+  "files": [
+    "bayou-nightshift/",
+    "booby-trap-defender/",
+    "casting-director/",
+    "catalog/",
+    "chemistry-perfectionist/",
+    "crossover-starter/",
+    "detroit-outsider/",
+    "golden-road-guide/",
+    "laid-back-simplifier/",
+    "paranoia-pack/",
+    "redacted-veteran/",
+    "trojan-janitor/",
+    "waste-management/",
+    "zero-mercy-gatekeeper/",
+    "skills/",
+    "scripts/",
+    "schemas/",
+    "preview/",
+    "README.md",
+    "CHANGELOG.md",
+    "llms.txt",
+    "LICENSE"
+  ]
+}
