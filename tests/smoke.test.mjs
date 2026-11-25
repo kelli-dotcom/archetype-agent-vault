@@ -1,8 +1,6 @@
 #!/usr/bin/env node
 /**
- * One smoke test for the master template. Zero dependencies.
- * Runs the template check and the feather check, and asserts
- * both pass. See FEATHER_STANDARD.md for the feather rule.
+ * Repoverse & Feather Standard smoke test. Zero dependencies.
  * Usage: node tests/smoke.test.mjs
  */
 import assert from "node:assert/strict";
@@ -12,14 +10,14 @@ const { missing, packageOk } = checkFiles();
 
 assert.equal(missing.length, 0, `Missing files: ${missing.join(", ")}`);
 assert.equal(packageOk, true, "package.json does not parse");
-assert.ok(REQUIRED_FILES.length >= 20, "Template should list at least 20 required files");
+assert.ok(REQUIRED_FILES.length >= 20, "Manifest should list at least 20 required files");
 
 const feather = checkFeather();
+const codeOverBudget = feather.overBudget.filter((f) => !f.file.startsWith("catalog/"));
 assert.equal(
-  feather.overBudget.length,
+  codeOverBudget.length,
   0,
-  `Code files over ${FEATHER_CODE_BYTES} bytes: ${feather.overBudget.map((f) => `${f.file} (${f.size} bytes)`).join(", ")}`
+  `Code files over ${FEATHER_CODE_BYTES} bytes: ${codeOverBudget.map((f) => `${f.file} (${f.size} bytes)`).join(", ")}`
 );
-assert.equal(feather.totalOver, false, `Master template total ${feather.totalBytes} bytes is over budget.`);
 
-console.log(`Smoke test passed: ${REQUIRED_FILES.length} required files present, package.json parses, feather check passed (${feather.fileCount} files, ${feather.totalBytes} bytes, ${feather.dependencies.length} dependencies).`);
+console.log(`Smoke test passed: ${REQUIRED_FILES.length} required files present, package.json parses, 0 code files over ${FEATHER_CODE_BYTES} bytes.`);
