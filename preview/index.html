@@ -1,39 +1,158 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="golden-hour">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Archetype Agent Vault — Live 7-Suite Specialist Roster Demo</title>
+  <title>Archetype Agent Vault — Live Casting Director &amp; 500-Archetype Explorer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <!-- Pulls Feather Themes kit directly (never rebuilt) -->
+  <link rel="stylesheet" href="https://kelli-dotcom.github.io/feather-themes/themes/themes.css" />
+  <link rel="stylesheet" href="https://kelli-dotcom.github.io/feather-themes/ui/fonts.css" />
+  <link rel="stylesheet" href="https://kelli-dotcom.github.io/feather-themes/ui/buttons.css" />
   <style>
-    :root { --bg:#0b1120; --panel:#111827; --card:#1e293b; --border:#334155; --text:#f8fafc; --muted:#94a3b8; --emerald:#10b981; --cyan:#0ea5e9; }
-    * { box-sizing:border-box; margin:0; padding:0; }
-    body { background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; padding:24px; }
-    .container { max-width:1080px; margin:0 auto; }
-    .header { display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid var(--border); padding-bottom:14px; margin-bottom:18px; }
-    .grid { display:grid; grid-template-columns:repeat(3, 1fr); gap:14px; }
-    .card { background:var(--panel); border:1px solid var(--border); border-radius:6px; padding:16px; }
-    .card h3 { font-size:15px; color:var(--emerald); margin-bottom:6px; }
-    .card p { font-size:13px; color:var(--muted); margin-bottom:10px; }
-    .tag { display:inline-block; background:var(--card); border:1px solid var(--border); border-radius:4px; padding:3px 8px; font-size:11px; font-family:ui-monospace,monospace; color:var(--cyan); }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--ft-bg); color: var(--ft-text); }
+    .wrap { max-width: 1120px; margin: 0 auto; padding: 26px 20px 56px; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.82rem; }
+    .muted { color: var(--ft-muted); }
+    .topbar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 14px; border-bottom: 1px solid var(--ft-border); padding-bottom: 16px; margin-bottom: 20px; }
+    .panel { background: var(--ft-surface-solid); border: 1px solid var(--ft-border); border-radius: 12px; padding: 18px; margin-bottom: 18px; }
+    .mission-bar { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; }
+    .squad-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; margin-top: 12px; }
+    .agent-card { background: var(--ft-bg); border: 1px solid var(--ft-border); border-radius: 10px; padding: 14px; }
+    .controls { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0; }
+    input, select { min-height: 44px; padding: 8px 12px; border-radius: 10px; border: 1px solid var(--ft-border); background: var(--ft-bg); color: var(--ft-text); font-family: inherit; font-size: 0.95rem; }
+    input { flex: 1; min-width: 220px; }
+    .catalog-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 12px; margin-top: 12px; }
+    pre { margin: 12px 0 0; padding: 14px; border-radius: 10px; border: 1px solid var(--ft-border); background: var(--ft-bg); color: var(--ft-text); overflow-x: auto; font-size: 0.8rem; }
   </style>
 </head>
 <body>
-  <div class="container">
-    <div class="header">
+  <div class="wrap">
+    <header class="topbar">
       <div>
-        <h1 style="font-size:22px;font-weight:800;">Archetype Agent Vault · Live Specialist Roster</h1>
-        <p style="font-size:13px;color:var(--muted);">7 Character-Driven AI Agent Suites · 27 Model-Agnostic Specialists · Zero Trigger Collisions</p>
+        <div class="mono" style="color:var(--ft-accent);font-weight:700;">🔴 ARCHETYPE-AGENT-VAULT // LIVE CASTING DIRECTOR &amp; 500-ARCHETYPE CATALOG</div>
+        <h1 style="margin:4px 0 6px;">Cast a 3-Agent Specialist Squad for Any Dev Job</h1>
+        <p class="muted" style="margin:0;">Styled with <code>feather-themes</code> (Zero rebuilt CSS) · 100% IP-safe genre tropes · Max 3 concurrent agents · Zero trigger collisions.</p>
       </div>
-      <span class="tag" style="font-size:12px;padding:6px 10px;">ALL MODELS READY</span>
-    </div>
-    <div class="grid">
-      <div class="card"><h3>1. Waste Management ("The Boss")</h3><p>Orchestrator &amp; task router. Assigns task IDs, enforces 3-agent concurrency caps, and resolves Rule-of-2 escalations.</p><span class="tag">waste-management/</span></div>
-      <div class="card"><h3>2. Trojan Janitor</h3><p>Ingestion &amp; dead-link cleanup specialist. Verifies HTTP 200 ATS board slugs and purges stale/404 job listings.</p><span class="tag">trojan-janitor/</span></div>
-      <div class="card"><h3>3. Zero-Mercy Gatekeeper</h3><p>Strict QA &amp; typecheck enforcer. Blocks disguised-hybrid roles, missing salary bounds, and TypeScript errors.</p><span class="tag">zero-mercy-gatekeeper/</span></div>
-      <div class="card"><h3>4. Booby-Trap Defender</h3><p>Edge-case &amp; defensive security auditor. Traps injection vectors, race conditions, and silent fallback failures.</p><span class="tag">booby-trap-defender/</span></div>
-      <div class="card"><h3>5. Laid-Back Simplifier</h3><p>Bloat &amp; complexity reducer. Replaces heavy dependencies with clean zero-dependency native ESM modules.</p><span class="tag">laid-back-simplifier/</span></div>
-      <div class="card"><h3>6. Casting Director + Crossover</h3><p>Selects the optimal 3-agent squad for any repository and wires structured JSON handoffs automatically.</p><span class="tag">casting-director/</span></div>
-    </div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;">
+        <button id="copyRoster" class="ft-btn" type="button">Copy 3-Agent AGENTS.md</button>
+        <a class="ft-btn-secondary" href="https://github.com/kelli-dotcom/archetype-agent-vault" target="_blank" rel="noopener">GitHub Repo ↗</a>
+      </div>
+    </header>
+
+    <section class="panel">
+      <div class="mono" style="color:var(--ft-accent);">USE CASE 01 · INTERACTIVE CASTING DIRECTOR (MAX 3 AGENTS)</div>
+      <h2 style="margin:4px 0;">Pick Your Situation — Cast the Exact 3-Agent Squad</h2>
+      <div class="mission-bar" id="missionBar"></div>
+      <div id="squadGrid" class="squad-grid"></div>
+      <pre id="rosterSnippet"></pre>
+    </section>
+
+    <section class="panel">
+      <div class="mono" style="color:var(--ft-accent);">USE CASE 02 · LIVE 500-ARCHETYPE CATALOG EXPLORER</div>
+      <h2 style="margin:4px 0;">Search All 500 Original IP-Safe Archetypes</h2>
+      <div class="controls">
+        <input id="searchBox" type="search" placeholder="Search by job, slug, or archetype (e.g. debugging, migration, security, QA)..." oninput="renderCatalog()" />
+        <select id="catSel" onchange="renderCatalog()"></select>
+      </div>
+      <p id="catStatus" class="mono muted" style="margin:4px 0 0;">Loading catalog/archetypes-500.json...</p>
+      <div id="catalogGrid" class="catalog-grid"></div>
+    </section>
   </div>
+
+  <script>
+    const MISSIONS = {
+      bug: {
+        label: "Stuck on a Bug",
+        install: "./scripts/install.sh paranoia-pack /path/to/your-repo",
+        squad: [
+          { slot: "1 · Orchestrator", name: "The Boss", suite: "waste-management/", job: "Owns scope, Rule-of-2 halt, and final sign-off." },
+          { slot: "2 · Root-Cause Hunter", name: "Red Flag", suite: "paranoia-pack/", job: "Hunts silent failures, race conditions, and frozen states." },
+          { slot: "3 · Verifier", name: "Zero-Mercy Gatekeeper", suite: "zero-mercy-gatekeeper/", job: "Blocks merges until proof command exits 0." }
+        ]
+      },
+      bloat: {
+        label: "Cut Bloated Files (<20 KB)",
+        install: "./scripts/install.sh laid-back-simplifier /path/to/your-repo",
+        squad: [
+          { slot: "1 · Simplifier", name: "Laid-Back Simplifier", suite: "laid-back-simplifier/", job: "Splits multi-job files and strips dead abstractions." },
+          { slot: "2 · Cleanup", name: "Trojan Janitor", suite: "trojan-janitor/", job: "Sweeps unused imports, stale files, and dead links." },
+          { slot: "3 · Verifier", name: "Redacted Veteran", suite: "redacted-veteran/", job: "Scrubs debug logs and verifies size budgets." }
+        ]
+      },
+      qa: {
+        label: "Edge-Case & Chaotic QA",
+        install: "./scripts/install.sh booby-trap-defender /path/to/your-repo",
+        squad: [
+          { slot: "1 · Trap Engineer", name: "Booby-Trap Defender", suite: "booby-trap-defender/", job: "Rigs edge-case tests and chaotic-user QA traps." },
+          { slot: "2 · Security", name: "Paranoia Pack", suite: "paranoia-pack/", job: "Checks auth, secrets, and input boundary safety." },
+          { slot: "3 · Gatekeeper", name: "Zero-Mercy Gatekeeper", suite: "zero-mercy-gatekeeper/", job: "Requires real test output before shipping." }
+        ]
+      },
+      kickoff: {
+        label: "New Repo Kickoff",
+        install: "./scripts/install.sh crossover /path/to/your-repo",
+        squad: [
+          { slot: "1 · Guide", name: "Golden Road Guide", suite: "golden-road-guide/", job: "Maps the shortest clean spec and milestone order." },
+          { slot: "2 · Builder", name: "Detroit Outsider", suite: "detroit-outsider/", job: "Ships practical, zero-bloat working code." },
+          { slot: "3 · Verifier", name: "Chemistry Perfectionist", suite: "chemistry-perfectionist/", job: "Enforces strict types, schema contracts, and clean tests." }
+        ]
+      }
+    };
+
+    let currentMission = "bug";
+    let allArchetypes = [];
+
+    function selectMission(key) {
+      currentMission = key;
+      const m = MISSIONS[key];
+      document.getElementById("missionBar").innerHTML = Object.entries(MISSIONS).map(([k, v]) =>
+        `<button type="button" class="${k === key ? "ft-btn" : "ft-btn-secondary"}" onclick="selectMission('${k}')">${v.label}</button>`
+      ).join("");
+      document.getElementById("squadGrid").innerHTML = m.squad.map(a =>
+        `<div class="agent-card"><div class="mono" style="color:var(--ft-accent);">${a.slot}</div><h3 style="margin:4px 0;">${a.name}</h3><div class="mono muted">${a.suite}</div><p class="muted" style="margin:6px 0 0;font-size:0.9rem;">${a.job}</p></div>`
+      ).join("");
+      document.getElementById("rosterSnippet").textContent = `# Cast Squad: ${m.label} (Max 3 Active Agents · Rule of 2)\n# Install: ${m.install}\n` +
+        m.squad.map(a => `- **${a.name}** (\`${a.suite}\`) — ${a.job}`).join("\n");
+    }
+
+    function renderCatalog() {
+      const q = document.getElementById("searchBox").value.trim().toLowerCase();
+      const cat = document.getElementById("catSel").value;
+      const filtered = allArchetypes.filter(a => {
+        if (cat !== "all" && a.category !== cat) return false;
+        if (!q) return true;
+        return `${a.name} ${a.slug} ${a.primary_job} ${a.category_label}`.toLowerCase().includes(q);
+      });
+      document.getElementById("catStatus").textContent = `Showing ${Math.min(48, filtered.length)} of ${filtered.length} matching archetypes (Catalog total: ${allArchetypes.length} · IP-Safe: true)`;
+      document.getElementById("catalogGrid").innerHTML = filtered.slice(0, 48).map(a =>
+        `<div class="agent-card"><div class="mono" style="color:var(--ft-accent);font-size:0.74rem;">#${a.id} · ${a.category_label}</div><h3 style="margin:4px 0;font-size:1.05rem;">${a.name}</h3><div class="mono muted" style="font-size:0.75rem;">${a.slug}</div><p class="muted" style="margin:6px 0 0;font-size:0.86rem;">Job: <strong>${a.primary_job}</strong></p></div>`
+      ).join("");
+    }
+
+    document.getElementById("copyRoster").onclick = () => {
+      navigator.clipboard.writeText(document.getElementById("rosterSnippet").textContent);
+      document.getElementById("copyRoster").textContent = "✓ Copied 3-Agent Roster!";
+      setTimeout(() => { document.getElementById("copyRoster").textContent = "Copy 3-Agent AGENTS.md"; }, 2000);
+    };
+
+    selectMission("bug");
+
+    fetch("../catalog/archetypes-500.json")
+      .then(r => r.json())
+      .then(data => {
+        allArchetypes = data.archetypes || [];
+        const cats = Array.from(new Map(allArchetypes.map(a => [a.category, a.category_label])).entries());
+        document.getElementById("catSel").innerHTML = `<option value="all">All Categories (${allArchetypes.length})</option>` +
+          cats.map(([id, label]) => `<option value="${id}">${label}</option>`).join("");
+        renderCatalog();
+      })
+      .catch(() => {
+        document.getElementById("catStatus").textContent = "Open via GitHub Pages or a local server to load catalog/archetypes-500.json.";
+      });
+  </script>
 </body>
 </html>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 290" width="100%" height="100%">
+  <!-- Uses Golden Hour / Crimson approved dark tokens (#1c1317, #291c22, #4a333d, #f7ebe8, #d6b2ba, #f43f5e) -->
+  <rect width="1080" height="290" rx="14" fill="#1c1317" stroke="#f43f5e" stroke-width="2"/>
+  <rect x="16" y="16" width="1048" height="258" rx="10" fill="#291c22" stroke="#4a333d" stroke-width="1.2"/>
+
+  <!-- Left Cast Title Block -->
+  <text x="52" y="62" fill="#fb7185" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700" letter-spacing="2.2">🔴 ARCHETYPE-AGENT-VAULT // 100% IP-SAFE SPECIALIST SQUADS</text>
+  <text x="52" y="114" fill="#f7ebe8" font-family="Lora, Georgia, serif" font-size="40" font-weight="600">Archetype Agent Vault</text>
+  <rect x="52" y="128" width="380" height="3.5" rx="2" fill="#f43f5e"/>
+  <text x="52" y="162" fill="#f7ebe8" font-family="'Source Sans 3', system-ui, -apple-system, sans-serif" font-size="16">7 full-cast suites (23 specialists), 4 extra packs, and 500 original archetypes.</text>
+  <text x="52" y="186" fill="#d6b2ba" font-family="'Source Sans 3', system-ui, -apple-system, sans-serif" font-size="14.5">Zero trigger collisions · Max 3 active agents · Rule-of-2 verified · All AI models ready.</text>
+
+  <g font-family="'Source Sans 3', system-ui, sans-serif" font-size="12.5" font-weight="600">
+    <rect x="52" y="210" width="152" height="36" rx="8" fill="#291c22" stroke="#f43f5e" stroke-width="2"/>
+    <text x="128" y="232" fill="#f7ebe8" text-anchor="middle">500 Archetypes</text>
+
+    <rect x="216" y="210" width="146" height="36" rx="8" fill="#1c1317" stroke="#4a333d" stroke-width="1.2"/>
+    <text x="289" y="232" fill="#f7ebe8" text-anchor="middle">100% IP-Safe</text>
+
+    <rect x="374" y="210" width="184" height="36" rx="8" fill="#1c1317" stroke="#e5989b" stroke-width="1.4"/>
+    <text x="466" y="232" fill="#f7ebe8" text-anchor="middle">Casting Director ↗</text>
+  </g>
+
+  <!-- Right Panel: Cast Roster Board (3-Agent Squad Cap) -->
+  <g transform="translate(612, 34)" font-family="ui-monospace, SFMono-Regular, monospace">
+    <rect x="0" y="0" width="424" height="46" rx="7" fill="#1c1317" stroke="#f43f5e" stroke-width="1.4"/>
+    <text x="16" y="20" fill="#fb7185" font-size="11.5" font-weight="800">SLOT 1 · THE BOSS (waste-management)</text>
+    <text x="16" y="36" fill="#d6b2ba" font-size="10.5">Orchestrator · Scope, routing &amp; Rule-of-2 escalation</text>
+
+    <rect x="0" y="56" width="424" height="46" rx="7" fill="#1c1317" stroke="#e5989b" stroke-width="1.3"/>
+    <text x="16" y="76" fill="#f7ebe8" font-size="11.5" font-weight="700">SLOT 2 · TROJAN JANITOR (trojan-janitor)</text>
+    <text x="16" y="92" fill="#d6b2ba" font-size="10.5">Sweeps dead code, unused imports &amp; broken links</text>
+
+    <rect x="0" y="112" width="424" height="46" rx="7" fill="#1c1317" stroke="#e5989b" stroke-width="1.3"/>
+    <text x="16" y="132" fill="#f7ebe8" font-size="11.5" font-weight="700">SLOT 3 · ZERO-MERCY GATEKEEPER</text>
+    <text x="16" y="148" fill="#d6b2ba" font-size="10.5">Strict PR gatekeeper · Blocks sloppy commits &amp; leaks</text>
+
+    <rect x="0" y="168" width="424" height="52" rx="7" fill="#140d10" stroke="#4a333d"/>
+    <text x="16" y="189" fill="#fb7185" font-size="11" font-weight="700">+ 4 EXTRA PACKS &amp; 500-ARCHETYPE CATALOG</text>
+    <text x="16" y="207" fill="#d6b2ba" font-size="10">booby-trap-defender · paranoia-pack · laid-back-simplifier · redacted-veteran</text>
+  </g>
+</svg>

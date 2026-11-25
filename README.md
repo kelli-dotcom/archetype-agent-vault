@@ -1,3 +1,5 @@
+[![Archetype Agent Vault — 100% IP-Safe AI Specialist Squads](demo/hero-banner.svg)](https://kelli-dotcom.github.io/archetype-agent-vault/preview/)
+
 # Archetype Agent Vault
 
 Come in. Everything here has its place, and nothing is missing.
@@ -10,6 +12,7 @@ Come in. Everything here has its place, and nothing is missing.
 - `booby-trap-defender/`, `paranoia-pack/`, `trojan-janitor/`, `waste-management/` — 4 extra packs
 - `catalog/` — 500-archetype catalog to scaffold from
 - `casting-director/` — the skill that casts a suite for a job
+- [Live Casting Director & 500-Archetype Explorer](https://kelli-dotcom.github.io/archetype-agent-vault/preview/) (`preview/index.html`) — cast a 3-agent squad and search all 500 archetypes live
 
 **Use it**
 
